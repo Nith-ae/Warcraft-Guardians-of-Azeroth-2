@@ -1,8 +1,4 @@
-﻿
-special = {
-
-## So that the Prophet Muhammad does not have a portrait ## 
-
+﻿special = {
 	no_portrait = {
 		dna_modifiers = {
 			morph = {
@@ -74,9 +70,7 @@ special = {
 
 		}
 		weight = {
-			base = 0
+			base = 999
 		}
 	}
-
-
 }

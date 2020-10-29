@@ -1,0 +1,78 @@
+﻿old_gods_test_decision_1 = {
+	picture = "gfx/interface/illustrations/decisions/decision_major_religion.dds"
+
+	is_shown = {
+		debug_only = yes
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult_or_is_commanding = yes
+	}
+	effect = {
+		set_global_variable = {
+			name = old_god_power
+			value = 0
+		}
+	}
+
+	ai_check_interval = 0
+}
+old_gods_test_decision_2 = {
+	picture = "gfx/interface/illustrations/decisions/decision_major_religion.dds"
+
+	is_shown = {
+		debug_only = yes
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult_or_is_commanding = yes
+	}
+	effect = {
+		set_global_variable = {
+			name = old_god_power
+			value = 25
+		}
+	}
+
+	ai_check_interval = 0
+}
+
+old_gods_test_decision_3 = {
+	picture = "gfx/interface/illustrations/decisions/decision_major_religion.dds"
+
+	is_shown = {
+		debug_only = yes
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult_or_is_commanding = yes
+	}
+	effect = {
+		set_global_variable = {
+			name = old_god_power
+			value = 50
+		}
+	}
+
+	ai_check_interval = 0
+}
+
+old_gods_test_decision_4 = {
+	picture = "gfx/interface/illustrations/decisions/decision_major_religion.dds"
+
+	is_shown = {
+		debug_only = yes
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult_or_is_commanding = yes
+	}
+	effect = {
+		set_global_variable = {
+			name = old_god_power
+			value = 99
+		}
+	}
+
+	ai_check_interval = 0
+}

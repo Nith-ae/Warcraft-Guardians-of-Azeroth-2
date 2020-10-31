@@ -21,6 +21,14 @@ clothes = {
                 add = 100
                 should_be_naked_trigger = yes
             }
+
+			# Warcraft
+			modifier = {
+				add = 100
+
+				no_portrait_scripted_trigger = yes
+			}
+
         }
     }
 

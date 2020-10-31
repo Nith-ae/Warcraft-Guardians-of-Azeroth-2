@@ -1,10 +1,10 @@
-﻿special = {
-	no_portrait = {
+﻿wc_special = {
+	wc_censored_portrait = {
 		dna_modifiers = {
 			morph = {
 				mode = replace
-				gene = gene_bs_body_type
-				template = no_portrait
+				gene = wc_censored_portrait
+				template = wc_no_portrait
 				value = 1.0
 			}
 			morph = {

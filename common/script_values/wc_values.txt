@@ -1,3 +1,4 @@
 ﻿old_god_power_value = {
 	add = global_var:old_god_power
+	divide = 100 # max
 }
